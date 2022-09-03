@@ -31,6 +31,28 @@ Clasificación2.ipynb
 
 Clasificación3.ipynb
 
+# Técnicas de procesamiento:
+
+Definición del modelo a implementarse:
+1.	Cambio de tamaño: Se ajusta a una altura de 100 pixeles y longitud de 100 pixeles a todas las imágenes
+2.	Se define el número de épocas en 20.
+3.	Se define el número de imágenes a procesarse en cada paso en 32.
+4.	Se define el número de pasos en cada época como 1000.
+5.	Se define el número de pasos de validación como 200, a fin de comprobar como va avanzando el modelo.
+6.	Se definen dos filtros de convolución el primero con una profundidad de 32 y el segundo con una profundidad de 64.
+7.	Se establecen los tamaños de cada filtro, el primero (3,3) y el segundo (2,2) en altura y longitud.
+8.	Se define el tamaño del pool (3,3) para el max poolling.
+9.	Se define el número de clases de 8 aunque en la clase 1 no se tienen datos.
+10.	Finalmente se establece el learning rate en 0.0005 para que la red neuronal se vaya ajustando a fin de mejorar el modelo.
+
+Preprocesamiento de imágenes
+1.	Re escalado de imágenes cambio el valor de los pixeles de 1 a 255 a valores entre 0 y 1 a fin de hacer más eficiente el proceso.
+2.	Se genera función shear range para que el algoritmo aprenda también con imágenes cortadas.
+3.	 Se genera función zoom range para que el algoritmo aprenda también con imágenes acercadas o alejadas.
+4.	Se genera función horizontal flip para que el algoritmo aprenda también con imágenes invertidas.
+
+
+
 Finalmente se adjunta la matriz de confusión realizada con 100 muestras de las cuales 50 pertenecían a la clase 5 y 50 a otras clases, todas las muestras tomadas de la carpeta de evaluación.
 
 MATRIZ DE CONFUSIÓN
@@ -39,6 +61,10 @@ MATRIZ DE CONFUSIÓN
 
 
 Esta matriz cambiaba dependiendo de la clase que se evaluara, esto debido al número de muestras disponibles en el entrenamiento del modelo. En el cuadro mostrado anteriormente se evaluó la clase 5, ya que era la que tenpia un mayor número de muestras disponibles en la generación del modelo y la que mejores resultados demostró en las pruebas realizadas.
+
+
+![image](https://user-images.githubusercontent.com/101531467/188279786-fa3bb8f9-7c77-4393-abbc-50b2f20226a7.png)
+
 
 
 
