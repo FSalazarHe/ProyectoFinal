@@ -51,6 +51,10 @@ Preprocesamiento de imágenes
 3.	 Se genera función zoom range para que el algoritmo aprenda también con imágenes acercadas o alejadas.
 4.	Se genera función horizontal flip para que el algoritmo aprenda también con imágenes invertidas.
 
+Red Nauronal
+La red generada es secuencial, de tipo convolucional 2D, con dos capas, como se definió en el modelo a implementarse.
+
+![image](https://user-images.githubusercontent.com/101531467/188280501-f5e15196-71f7-4f17-930f-36f35193e648.png)
 
 
 Finalmente se adjunta la matriz de confusión realizada con 100 muestras de las cuales 50 pertenecían a la clase 5 y 50 a otras clases, todas las muestras tomadas de la carpeta de evaluación.
