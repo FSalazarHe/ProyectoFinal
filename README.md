@@ -27,4 +27,7 @@ https://drive.google.com/drive/folders/1GqL34FGl0xz34Wnx-NgrF8cts13Etchj?usp=sha
 Finalmente como trabajo adicional se suven dos ejemplos adicionales de clasificadores de imagenes con redes neuronales convolucionales, con estos ejemplos se profundizó en la compresión de la materia. Estos archivos son:
 
 Clasificación2.ipynb
+
+
 Clasificación3.ipynb
+
