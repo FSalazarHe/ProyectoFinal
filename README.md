@@ -60,7 +60,7 @@ MATRIZ DE CONFUSIÓN
 ![image](https://user-images.githubusercontent.com/101531467/188279259-b50d17f7-9ffd-409e-bd3d-92268968b388.png)
 
 
-Esta matriz cambiaba dependiendo de la clase que se evaluara, esto debido al número de muestras disponibles en el entrenamiento del modelo. En el cuadro mostrado anteriormente se evaluó la clase 5, ya que era la que tenpia un mayor número de muestras disponibles en la generación del modelo y la que mejores resultados demostró en las pruebas realizadas.
+Esta matriz cambiaba dependiendo de la clase evaluada, esto debido al número de muestras disponibles en el entrenamiento del modelo. En el cuadro mostrado anteriormente se evaluó la clase 5, ya que era la que disponía un mayor número de muestras en la generación del modelo y la que mejores resultados demostró en las pruebas realizadas.
 
 
 ![image](https://user-images.githubusercontent.com/101531467/188279786-fa3bb8f9-7c77-4393-abbc-50b2f20226a7.png)
