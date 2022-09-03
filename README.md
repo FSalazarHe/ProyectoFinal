@@ -52,7 +52,7 @@ Preprocesamiento de imágenes
 4.	Se genera función horizontal flip para que el algoritmo aprenda también con imágenes invertidas.
 
 Red Nauronal
-La red generada es secuencial, de tipo convolucional 2D, con dos capas, como se definió en el modelo a implementarse.
+La red generada es secuencial, de tipo convolucional 2D, con dos capas, como se definió en el modelo a implementarse. Para evitar el sobreajuste se implementa un Dropout de 0.50, y la función softmax para la clasificación.
 
 ![image](https://user-images.githubusercontent.com/101531467/188280501-f5e15196-71f7-4f17-930f-36f35193e648.png)
 
