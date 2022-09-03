@@ -31,3 +31,14 @@ Clasificación2.ipynb
 
 Clasificación3.ipynb
 
+Finalmente se adjunta la matriz de confusión realizada con 100 muestras de las cuales 50 pertenecían a la clase 5 y 50 a otras clases, todas las muestras tomadas de la carpeta de evaluación.
+
+MATRIZ DE CONFUSIÓN
+
+![image](https://user-images.githubusercontent.com/101531467/188279259-b50d17f7-9ffd-409e-bd3d-92268968b388.png)
+
+
+Esta matriz cambiaba dependiendo de la clase que se evaluara, esto debido al número de muestras disponibles en el entrenamiento del modelo. En el cuadro mostrado anteriormente se evaluó la clase 5, ya que era la que tenpia un mayor número de muestras disponibles en la generación del modelo y la que mejores resultados demostró en las pruebas realizadas.
+
+
+
