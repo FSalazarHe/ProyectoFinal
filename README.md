@@ -1,5 +1,5 @@
 # ProyectoFinal
-Clasificador de imágenes con tensor Flow y keras, utilizando Redes Neuronales Convolucionales
+Clasificador de imágenes con TensorFlow y Keras, utilizando Redes Neuronales Convolucionales
 
 Nombre: Francisco Salazar H.
 
