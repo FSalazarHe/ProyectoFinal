@@ -5,7 +5,7 @@ Nombre: Francisco Salazar H.
 
 Saludos
 
-En este repositorio se encuentra el proyecto final realizada para la clase de tratamiento de datos.
+En este repositorio se encuentra el proyecto final realizada para la clase de Tratamiento de Datos.
 
 La estructura de archivos es la siguiente:
 
@@ -24,7 +24,7 @@ https://drive.google.com/drive/folders/1GqL34FGl0xz34Wnx-NgrF8cts13Etchj?usp=sha
 ![Presición del clasificador](https://user-images.githubusercontent.com/101531467/188278092-c3bb7724-f868-4f45-974d-38870f2d2813.jpg)
 
 
-Finalmente como trabajo adicional se suven dos ejemplos adicionales de clasificadores de imagenes con redes neuronales convolucionales, con estos ejemplos se profundizó en la compresión de la materia. Estos archivos son:
+Finalmente como trabajo adicional se suben dos ejemplos adicionales de clasificadores de imagenes con redes neuronales convolucionales, con estos ejemplos se profundizó en la compresión de la materia. Estos archivos son:
 
 Clasificación2.ipynb
 
@@ -51,7 +51,7 @@ Preprocesamiento de imágenes
 3.	 Se genera función zoom range para que el algoritmo aprenda también con imágenes acercadas o alejadas.
 4.	Se genera función horizontal flip para que el algoritmo aprenda también con imágenes invertidas.
 
-Red Nauronal
+Red Neuronal
 La red generada es secuencial, de tipo convolucional 2D, con dos capas, como se definió en el modelo a implementarse. Para evitar el sobreajuste se implementa un Dropout de 0.50, y la función softmax para la clasificación.
 
 ![image](https://user-images.githubusercontent.com/101531467/188280501-f5e15196-71f7-4f17-930f-36f35193e648.png)
